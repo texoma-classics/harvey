@@ -6,6 +6,7 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
+  overflow-x: hidden;
 }
 
 .circle-margin {
@@ -14,6 +15,10 @@ body {
 
 .header-black-color {
   color: black;
+}
+
+#mechanical {
+  margin-top: 6em;
 }
 
 
