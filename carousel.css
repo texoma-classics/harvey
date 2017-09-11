@@ -12,6 +12,10 @@ body {
   margin-bottom: 2em; /*space out the marketing content under the circle images*/
 }
 
+.header-black-color {
+  color: black;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -23,7 +27,7 @@ body {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
-  bottom: 3rem;
+  bottom: 12rem;
 }
 
 /* Declare heights because of positioning of img element */
