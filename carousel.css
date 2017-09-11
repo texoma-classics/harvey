@@ -28,13 +28,13 @@ body {
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
+  margin-top: 6px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
-  bottom: 12rem;
+  bottom: 9rem;
 }
-
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
