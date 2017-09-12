@@ -1,12 +1,34 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
-/* Padding below the footer and lighter body text */
+  
+/* make nav white color */
+#desktopNav > nav > div > ul { 
+  color: white !important;
+}
+  
+  
+  /* selects carousel buttons, keeps them original white color*/
+#myCarousel > div > div > div > div > p > a, div > p > a {
+ color: inherit !important;
+}
+ 
 
+.content-inner {
+    background-color: white !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+#banner-wrapper > div {
+  padding-top: 65px !important;
+  }
+/* Padding below the footer and lighter body text */
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
   overflow-x: hidden;
+  background-color: white;
 }
 
 .circle-margin {
@@ -36,7 +58,7 @@ body {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
-  bottom: 9rem;
+  bottom: 9rem !important;
   right: 15%;
   left: 15%;
 }
